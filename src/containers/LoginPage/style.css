@@ -1,0 +1,56 @@
+body {
+  background: #222831;
+}
+
+.h3 {
+  margin: 10px auto;
+  text-align: center;
+  color: #eeeeee;
+  padding-bottom: 20px;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+form input {
+  outline: 0;
+  background: #eeeeee;
+  width: 80%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #00adb5;
+  width: 80%;
+  border: 0;
+  padding: 15px;
+  color: #eeeeee;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 25px;
+}
+form button:hover,
+form button:active,
+form button:focus {
+  background: #222831;
+}
+
+.loginContainer,
+.registerContainer {
+  width: 400px;
+  position: relative;
+  margin: 50px auto;
+}
