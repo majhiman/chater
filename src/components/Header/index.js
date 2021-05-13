@@ -21,7 +21,7 @@ const Header = (props) => {
   return(
     <header className="header">
         <div style={{display: 'flex'}}>
-          <div className="logo">Web Messenger</div>
+          <div className="logo">Chatter</div>
             
             {
               !auth.authenticated ? 
